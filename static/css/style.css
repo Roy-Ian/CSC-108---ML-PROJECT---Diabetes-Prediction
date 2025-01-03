@@ -1,0 +1,113 @@
+/* General body settings */
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4a4a4a; /* Charcoal grey background */
+}
+
+/* Main container styling */
+.container {
+    width: 100%;
+    max-width: 450px;
+    background: #ffffff; /* White background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
+    text-align: center;
+    border: 1px solid #c0c0c0; /* Silver border */
+}
+
+/* Header styling */
+h1 {
+    color: #000000; /* Black text */
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Form label styling */
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #4a4a4a; /* Charcoal grey text */
+}
+
+/* Input fields styling */
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 2px solid #c0c0c0; /* Silver border */
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background-color: #f9f9f9; /* Light grey background for inputs */
+    color: #333333; /* Dark grey text */
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+/* Input field focus effect */
+input:focus {
+    border-color: #000000; /* Black border on focus */
+    outline: none;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #000000; /* Black button background */
+    color: #ffffff; /* White button text */
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #4a4a4a; /* Charcoal grey on hover */
+}
+
+/* Result display */
+.result {
+    margin-top: 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #4a4a4a; /* Charcoal grey text */
+}
+
+/* Success and error messages styling */
+.result.success {
+    color: #28a745; /* Green for success */
+}
+
+.result.error {
+    color: #dc3545; /* Red for error */
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input, button {
+        padding: 12px;
+        font-size: 1rem;
+    }
+}
