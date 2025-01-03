@@ -12,6 +12,7 @@ Input:
 - Glucose level
 - Blood pressure
 - BMI
+
 Output:
  - Prediction 
 
