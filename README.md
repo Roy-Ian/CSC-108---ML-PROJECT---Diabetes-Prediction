@@ -7,6 +7,7 @@ This project is a basic implementation of Diabetes Prediction that uses machine 
 Features 
 
 The features of the project includes
+
 Input:
 - Glucose level
 - Blood pressure
